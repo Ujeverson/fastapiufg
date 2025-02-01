@@ -10,4 +10,13 @@ Repositório para a disciplina de Construção de APIs para Inteligência Artifi
  - Ative o ambiente virtual (linux): `source .venv/bin/activate`
 
  - Instale as bibliotecas: `pip install -r requirements.txt`
- - Como executar a aplicação localmente: 
+
+
+## Desenvolva um endpoint que deverá:
+     - Receber por parâmetro um “tema” de uma história
+     - Montar um prompt para que seja gerada uma história com base no tema informado pelo usuário
+     - Execute o prompt na OpenAI ou Groq
+     - Retorne a resposta para o usuário
+### Postman
+### Github
+
