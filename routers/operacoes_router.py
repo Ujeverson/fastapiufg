@@ -46,11 +46,13 @@ def soma(numero1: int, numero2: int):
 @router.post(
     "/soma/v2", 
     tags=[NomeGrupo.operacoes],
-    summary="Recebe dois números no corpo da requisição e retorna a soma",)
+    summary="Recebe dois números no corpo da requisição e retorna a soma",
+    response_model=Resultado,
+    )
 def soma_formato2(numero1: int, numero2: int):
     total = numero1 + numero2
     logger.info(f"Resultado da operação: {total}")
-    return {"resultado": total}
+    return Resultado(resultado=total)
 
 
 @router.post(
