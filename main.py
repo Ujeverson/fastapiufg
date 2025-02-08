@@ -17,9 +17,9 @@ app = FastAPI(
     version="0.1",
     terms_of_service="http://example.com/terms/",
     contact={
-        "name": "Rogério Rodrigues Carvalho",
-        "url": "http://github.com/rogerior/",
-        "email": "rogerior@ufg.br",
+        "name": "Ujeverson Tavares Sampaio",
+        "url": "http://github.com/ujeverson/",
+        "email": "ujeverson@gmail.com",
     },
     license_info={
         "name": "Apache 2.0",
